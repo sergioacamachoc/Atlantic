@@ -1,0 +1,87 @@
+.chart-container {
+    /* border: 1px solid black;*/
+    margin: 5px;
+    padding: 5px;
+    grid-area: chart;
+    font: normal normal normal 12px/14px Arial;
+    letter-spacing: 0px;
+    color: #303030;
+
+}
+
+.chart-text {
+    margin: 5px;
+    padding: 5px;
+}
+
+.data-chart_header {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.chart_left-container {
+    display: flex;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.all-shipments {
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 1px solid #E9E9E9;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.all-shipments_button {
+    margin: 100px;
+}
+
+.last-30-days {
+    margin: 10px 10px 10px 15px;
+    border: 1px solid #E9E9E9;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.chart-table {
+    display: block;
+    margin: 5px;
+    border: 1px solid #E9E9E9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 12px;
+}
+tr,
+th a{
+    font-weight: bolder;
+    color: black;
+}
+tr,
+td {
+    background-color: #fff;
+}
+
+.chart-table tr {
+    border-top: 1px solid #E9E9E9;
+    border-left: none;
+    border-right: none;
+}

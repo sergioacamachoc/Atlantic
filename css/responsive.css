@@ -1,0 +1,29 @@
+@media screen and (max-width:800px) {
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 1s;
+    }
+    .notif-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+    .msg-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+    .empty{
+        display: none;
+        transition: all 1s;
+    }
+    .sub-main_2{
+        width: 108%;
+        transition: all 1s;
+    }
+}

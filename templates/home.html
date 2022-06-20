@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFB</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/Atlantic Globe Green (2) - icon.ico">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/side-bar.css">
+    <link rel="stylesheet" href="../css/home/msg-container.css">
+    <link rel="stylesheet" href="../css/home/notif-container.css">
+    <link rel="stylesheet" href="../css/home/boxes.css">
+    <link rel="stylesheet" href="../css/home/chart.css">
+
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <script src="https://kit.fontawesome.com/f06cab23b4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <!--SIDE BAR CONTAINER-->
+        <div class="side-bar">
+            <!--<img class="nav-bar_main-img" src="imgs/Atlantic Globe Green (2).png" alt="main img">-->
+            <div class="nav-bar_main-img">
+                <a href="./login.html"><img src="../imgs/Atlantic Globe Green (2).png" alt="main img"></a>
+            </div>
+            <div class="nav-bar_items">
+                <ul class="nav-bar_list">
+                    <li class="nav-bar_item-1">
+                        <a href="home.html">
+                            <img class="home-logo" src="../imgs/house-solid.svg">
+                            </img>
+                        </a>
+                    </li>
+                    <!--<div class="icon-selector_item-1"></div>-->
+                    <li class="nav-bar_item-2">
+                        <a href="./ships.html">
+                            <img class="ship-logo" src="../imgs/ship-solid.svg">
+
+                            </img>
+                        </a>
+                    </li>
+                    <li class="nav-bar_item-3">
+                        <a href="#">
+                            <img class="bills-logo" src="../imgs/money-bills-solid.svg">
+
+                            </img>
+                        </a>
+                    </li>
+                    <li class="nav-bar_item-4">
+                        <a href="#">
+                            <img class="chart-logo" src="../imgs/chart-simple-solid.svg">
+
+                            </img>
+                        </a>
+                    </li>
+                    <li class="nav-bar_item-5">
+                        <a href="#">
+                            <img class="settings-logo" src="../imgs/sliders-solid.svg">
+
+                            </img>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--SIDE BAR CONTAINER END-->
+
+
+        <!--SUB MAIN CONTAINER ->MSG, NOTIF, DATA-CHART-->
+        <div class="sub-main">
+            <div class="sub-main_2">
+                <!--MSG CONTAINER-->
+                <div class="msg-container">
+                    <div class="msg-container_text">
+                        <p>Good Morning, JR Classics!</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <!--MSG CONTAINER END-->
+
+                <!--NOTIF CONTAINER-->
+                <div class="notif-container">
+                    <div class="notif-container_text">
+                        Upload Arrival Notice for shipment #12839283 - <a class="container-link" href="#">container
+                            #189382049</a>
+                    </div>
+                    <div class="notif-container_icon">
+                        <a href="#">
+
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--NOTIF CONTAINER END-->
+                <div class="boxes">
+                    <div class="box-1">
+                        <div class="box-1_number">
+                            <p class="box-number">15</p>
+                        </div>
+                        <div class="box-1-text">
+                            <p class="box-text">Shipments <br> Needing Uploads </p>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="box-2_number">
+                            <p class="box-number">2</p>
+                        </div>
+                        <div class="box-2_text">
+                            <p class="box-text">7501 Forms <br> to Review </p>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="box-3_number">
+                            <p class="box-number">2</p>
+                        </div>
+                        <div class="box-3_text">
+                            <p class="box-text">Invoices <br> Due </p>
+                        </div>
+                    </div>
+                </div>
+                <!--DATA-CHART CONTAINER-->
+                <div class="chart-container">
+                    <header class="data-chart_header">
+                        <h1 class="chart-text">Shipments</h1>
+                        <div class="chart_left-container">
+                            <div class="all-shipments">
+                                All Shipments
+                                <button type="all-shipments_button">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div class="last-30-days">
+                                Last 30 Days
+                                <button type="last-30-days_button">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+                    <!--Chart table will be imlemented in Vue-->
+                    <div class="chart-table">
+                        <table>
+                            <tr>
+                                <th>
+                                    <a href="#">
+                                        File number <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="#">
+                                        Container Number <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="#">
+                                        Reference Number <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="#">
+                                        From <i class="fa-solid fa-arrow-right"></i> To<i
+                                            class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="#">
+                                        ETA<i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="#">
+                                        Status<i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>Maria Anders</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                            </tr>
+                            <tr>
+                                <td>Centro comercial Moctezuma</td>
+                                <td>Francisco Chang</td>
+                                <td>Mexico</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                            </tr>
+                            <tr>
+                                <td>Ernst Handel</td>
+                                <td>Roland Mendel</td>
+                                <td>Austria</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                            </tr>
+                            <tr>
+                                <td>Island Trading</td>
+                                <td>Helen Bennett</td>
+                                <td>UK</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                            </tr>
+                            <tr>
+                                <td>Laughing Bacchus Winecellars</td>
+                                <td>Yoshi Tannamuri</td>
+                                <td>Canada</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                            </tr>
+                            <tr>
+                                <td>Magazzini Alimentari Riuniti</td>
+                                <td>Giovanni Rovelli</td>
+                                <td>Italy</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                                <td>Germany</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--NOTIF CONTAINER END-->
+            <div class="empty">
+                <p class="empty-box"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
